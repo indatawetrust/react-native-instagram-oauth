@@ -1,8 +1,8 @@
 {
-  "name": "react-native-instagram-oauth",
-  "version": "0.0.7",
-  "description": "react-native instagram login",
-  "main": "src/RNInstagramOAuth.js",
+  "name": "react-native-youtube-oauth",
+  "version": "0.0.1",
+  "description": "react-native youtube login",
+  "main": "src/RNYoutubeOAuth.js",
   "dependencies": {
     "shitty-qs": "^1.0.1"
   },
@@ -18,14 +18,14 @@
   },
   "keywords": [
     "react-native",
-    "instagram",
+    "youtube",
     "oauth",
     "login"
   ],
-  "author": "Klaus Zahiragic <klaus.zahiragic@gmail.com>",
+  "author": "Ahmet Şimşek <info@ahmetsimsek.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watzak/react-native-instagram-oauth/issues"
+    "url": "https://github.com/indatawetrust/react-native-youtube-oauth/issues"
   },
-  "homepage": "https://github.com/watzak/react-native-instagram-oauth#readme"
+  "homepage": "https://github.com/indatawetrust/react-native-youtube-oauth#readme"
 }
