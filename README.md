@@ -9,7 +9,7 @@ react-native interface to login to youtube (iOS)
 4. In XCode, in the project navigator, select your project. Add `libRCTLinking.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 5. Click `RCTLinking.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../../react-native/React` and `$(SRCROOT)/../../../React` - mark both as `recursive`.
 6. Run your project (`Cmd+R`)
-7. Register a new client on youtube itself => https://console.developers.google.com/apis/credentials/oauthclient?project={project_name}
+7. Register a new client on youtube itself => https://console.developers.google.com/apis/credentials/oauthclient?project=
 ![Alt Text](http://i.imgur.com/LeyB4zO.png)
 
 
