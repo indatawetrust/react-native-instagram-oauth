@@ -23,7 +23,7 @@ const youtubeConfig = {
  redirect_url: '<YOUR REDIRECT URL>'
 };
 
-RNInstagramOAuth(youtubeConfig, (err) => {
+RNYoutubeOAuth(youtubeConfig, (err) => {
 
 });
 ```
