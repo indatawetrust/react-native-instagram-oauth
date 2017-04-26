@@ -1,5 +1,7 @@
 # react-native-youtube-oauth
 react-native interface to login to youtube (iOS)
+## Demo
+![demo](http://i.imgur.com/PmF7V9d.gif)
 
 ## Getting started
 
@@ -11,7 +13,7 @@ react-native interface to login to youtube (iOS)
 6. Run your project (`Cmd+R`)
 7. Register a new client on youtube itself => https://console.developers.google.com/apis/credentials/oauthclient?project=
 ![Alt Text](http://i.imgur.com/LeyB4zO.png)
-
+8. https://github.com/luisfcofv/react-native-deep-linking#for-ios
 
 ## Usage
 
