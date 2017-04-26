@@ -1,7 +1,7 @@
 # react-native-youtube-oauth
 react-native interface to login to youtube (iOS)
 ## Demo
-![demo](http://i.imgur.com/PmF7V9d.gif)
+http://i.imgur.com/PmF7V9d.gif
 
 ## Getting started
 
