@@ -23,7 +23,14 @@ const youtubeConfig = {
  redirect_url: '<YOUR REDIRECT URL>'
 };
 
-RNYoutubeOAuth(youtubeConfig, (err) => {
-
-});
+RNYoutubeOAuth({
+        // app routing scheme. to be used for redirecting.
+        scheme: 'app://',
+        client_id: youtube.client_id,
+        redirect_uri: youtube.redirect_uri,
+        state: '0123456789',
+      },
+      code => {
+       
+      });
 ```
