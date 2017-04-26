@@ -1,9 +1,10 @@
 {
   "name": "react-native-youtube-oauth",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "react-native youtube login",
   "main": "src/RNYoutubeOAuth.js",
   "dependencies": {
+    "react-native-deep-linking": "^2.1.0",
     "shitty-qs": "^1.0.1"
   },
   "devDependencies": {
