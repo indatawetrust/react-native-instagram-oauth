@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.4",
-    "react-native-youtube": "^1.0.0-alpha.3"
+    "react-native-youtube": "^1.0.0-alpha.3",
+    "react-native-youtube-oauth": "0.0.4"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",

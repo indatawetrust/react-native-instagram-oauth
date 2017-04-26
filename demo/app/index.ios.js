@@ -21,11 +21,13 @@ const {width,height} = Dimensions.get("window")
 
 import DeepLinking from 'react-native-deep-linking';
 
-import RNYoutubeOAuth from 'RNYoutubeOAuth.js';
-var youtube = {
+import RNYoutubeOAuth from 'react-native-youtube-oauth';
+
+const youtube = {
   client_id: '****.apps.googleusercontent.com',
   redirect_uri: `http://localhost:3000/handle_youtube_callback`,
 };
+
 import YouTube from 'react-native-youtube'
 
 export default class app extends Component {
