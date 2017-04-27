@@ -28,8 +28,8 @@ const youtubeConfig = {
 RNYoutubeOAuth({
         // app routing scheme. to be used for redirecting.
         scheme: 'app://',
-        client_id: youtube.client_id,
-        redirect_uri: youtube.redirect_uri,
+        client_id: youtubeConfig.client_id,
+        redirect_uri: youtubeConfig.redirect_uri,
         state: '0123456789',
       },
       code => {
