@@ -43,13 +43,16 @@ router.get('videos', async function(ctx, next) {
 
             youtube.playlistItems.list(
               {
-                part: 'snippet',
+                part: 'snippet,status',
                 playlistId: channelPlaylistId,
                 maxResults: 50,
               },
               function(err, _response) {
                 const videos = _response.items;
-
+                
+                // video privacy status public
+                videos = videos.filter(({status}) => status.privacyStatus == 'public')
+                
                 resolve(videos)
               },
             );
